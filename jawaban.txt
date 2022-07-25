@@ -1,0 +1,37 @@
+1. mkdir nabilla
+2. cd nabilla
+3. mkdir Sekolah
+4. mkdir Kerja
+5. cd Sekolah/
+6. touch Ijazah.txt
+7. sudo nano Ijazah.txt
+	Perkenalkan namaku Nabilla
+	Berasal dari daerah Madiun
+	Salam Kenal :D
+   ctrl x, y, enter
+8. cat Ijazah.txt 
+9. touch Portfolio.txt
+   ls
+10. sudo nano Portfolio.txt
+	Saya pernah berkerja pada beberapa perusahaan salah satu diantaranya adalah 
+	Apple Inc
+	Walmart Inc
+	Shell (Shell plc)
+    ctrl x, y, enter
+11. cd ..
+12. cd Kerja/
+13. touch CV.txt
+14. sudo nano CV.txt
+	Salam,
+
+	perkenalkan namaku Nabilla, saya memiliki kegemaran
+	- olahraga
+	- menggambar
+	- menjaili adik
+    ctrl x, y, enter
+15. cat CV.txt
+16. cd ..
+17. ls
+18. cd Sekolah
+19. ls
+20. mv Portofolio.txt /home/pi/nabilla/Kerja
